@@ -33,7 +33,7 @@
             transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         }
 
-        void Update()
+        void FixedUpdate()
         {
             CameraRotation();
         }
