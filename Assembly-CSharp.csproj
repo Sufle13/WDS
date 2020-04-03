@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scenes\Scripts\Enemy\Steering.cs" />
     <Compile Include="Assets\Scenes\Scripts\FootSteps\AudioSource.cs" />
     <Compile Include="Assets\Scenes\Scripts\FootSteps\FootSteps.cs" />
+    <Compile Include="Assets\Scenes\Scripts\FootSteps\sdfd.cs" />
     <Compile Include="Assets\Scenes\Scripts\Medicine\FindObj.cs" />
     <Compile Include="Assets\Scenes\Scripts\Medicine\HeadBob.cs" />
     <Compile Include="Assets\Scenes\Scripts\Medicine\ItemProperty.cs" />
