@@ -78,7 +78,7 @@
         {
             // 0 - max friction, character is going in wall
             // 1 - min friction
-            return 1 - Vector3.Dot( moveDirection.normalized, -GetXZ( hit.normal ).normalized );
+            return 1 - Vector3.Dot( moveDirection.normalized, GetXZ( hit.normal ).normalized );
         }
 
 
@@ -100,3 +100,4 @@
 
     }
 }
+//хуй

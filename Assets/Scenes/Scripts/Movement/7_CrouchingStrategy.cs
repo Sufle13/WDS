@@ -15,7 +15,7 @@
         {
             var transform = character.transform;
             var desiredScale = GetDesiredScale( character );
-            transform.localScale = Vector3.MoveTowards( transform.localScale, desiredScale, 5 * Time.deltaTime );
+            transform.localScale = Vector3.MoveTowards( transform.localScale, desiredScale, 2 * Time.deltaTime );
         }
 
 
@@ -23,10 +23,10 @@
         {
             var targetScale = GetCrouchScale( character );
 
-            if (!character.IsInputCrouch && character.IsCrouching)
+            /*if (!character.IsInputCrouch && character.IsCrouching)
             {
                 if (CheckCollision( character.transform, character.Capsule )) targetScale = CrouchScale; // character can not get up
-            }
+            }*/
 
             return targetScale;
         }
@@ -44,7 +44,7 @@
             return transform.localScale.y != 1f;
         }
 
-        private static bool CheckCollision(Transform transform, CharacterController capsule)
+        /*private static bool CheckCollision(Transform transform, CharacterController capsule)
         {
             var oldScale = transform.localScale;
             transform.localScale = Vector3.one;
@@ -52,6 +52,7 @@
             transform.localScale = oldScale;
             return hasCollision;
         }
+        
 
         private static bool CheckCollision_(Transform transform, CharacterController capsule)
         {
@@ -63,6 +64,7 @@
             capsule.enabled = true;
             return hasCollision;
         }
+        */
 
 
     }
