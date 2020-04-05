@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Home Structure/Textures/Wooden Floor 1 Rough/DefaultMaterial_Albedo.png.meta
 guid: ab707eee49942be49a71111a46940cdb
-=======
-guid: 58919c8dd64e320459af437b07ecdd72
->>>>>>> Gulag_Po4ti_3d:Assets/Gekariks_Folder_Vfx/WispySmoke_8x8_N.tga.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -11,7 +7,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -67,7 +63,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0

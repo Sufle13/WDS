@@ -4,24 +4,24 @@
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "FilePath": "D:\\Documents\\GitHub\\WDS\\Library\\ScriptAssemblies\\Unity.Burst.dll",
-      "LastWriteTime": "1601-01-01T00:00:00Z"
+      "LastWriteTime": "2020-04-05T22:49:53.6601928Z"
     },
     {
       "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
       "FilePath": "D:\\Program Files (x86)\\Unity\\2019.3.5f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit\\Facades\\netstandard.dll",
-      "LastWriteTime": "1601-01-01T00:00:00Z"
+      "LastWriteTime": "2020-03-05T13:37:58Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "FilePath": "D:\\Program Files (x86)\\Unity\\2019.3.5f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit\\mscorlib.dll",
-      "LastWriteTime": "1601-01-01T00:00:00Z"
+      "LastWriteTime": "2020-03-05T13:37:58Z"
     }
   ],
   "Functions": [
     {
       "FullName": "System.Int32 Unity.Burst.Intrinsics.X86::DoGetCSRTrampoline()",
       "ModuleOptionsHash": 10400676583197497630,
-      "ModuleHash": "4fb138313faa51d4e3dee30c2b43d85b",
+      "ModuleHash": "159196e205e2f3bfdfc6ce496012d0be",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
         0,
@@ -32,7 +32,7 @@
     {
       "FullName": "System.Void Unity.Burst.Intrinsics.X86::DoSetCSRTrampoline(System.Int32)",
       "ModuleOptionsHash": 10400676583197497630,
-      "ModuleHash": "f1eed5319e5a5865a387ab6f7d362633",
+      "ModuleHash": "9ca352a43069fed58216508bb20a51c0",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
         0,

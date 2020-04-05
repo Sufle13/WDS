@@ -573,4 +573,4 @@ MonoBehaviour:
   diffusionProfiles:
     m_OverrideState: 1
     m_Value:
-    - {fileID: 11400000, guid: 2dc355b25f9738b418e71a3068df92d3, type: 2}
+    - {fileID: 11400000, guid: f40a998e28cac5e4cb0bfecfc8588756, type: 2}
