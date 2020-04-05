@@ -226,9 +226,9 @@ VisualEffectResource:
       PARTICLE_PER_STRIP_COUNT);\r\n            InitStripAttributes(index, attributes,
       stripData);\r\n#endif\r\n\t\t\t\r\n\t\t\t{\n\t\t\t    FlipbookPlay_0( /*inout
       */attributes.texIndex, (float)8, deltaTime_a);\n\t\t\t}\n\t\t\t{\n\t\t\t   
-      Force_1( /*inout */attributes.velocity, attributes.mass, float3(0, 0.200000003,
-      0), (float)1, deltaTime_a);\n\t\t\t}\n\t\t\t{\n\t\t\t    Drag_0( /*inout */attributes.velocity,
-      attributes.mass, (float)0.5, deltaTime_a);\n\t\t\t}\n\t\t\tEulerIntegration(
+      Force_1( /*inout */attributes.velocity, attributes.mass, float3(-0.200000003,
+      0.100000001, 0), (float)1, deltaTime_a);\n\t\t\t}\n\t\t\t{\n\t\t\t    Drag_0(
+      /*inout */attributes.velocity, attributes.mass, (float)0.5, deltaTime_a);\n\t\t\t}\n\t\t\tEulerIntegration(
       /*inout */attributes.position, attributes.velocity, deltaTime_a);\n\t\t\tAge(
       /*inout */attributes.age, deltaTime_a);\n\t\t\tReap(attributes.age, attributes.lifetime, 
       /*inout */attributes.alive);\n\t\t\t\n\r\n\r\n\t\t\tif (attributes.alive)\r\n\t\t\t{\r\n\t\t\t\tattributeBuffer.Store3((index
@@ -260,11 +260,11 @@ VisualEffectResource:
       stripData = GetStripDataFromParticleIndex(index, PARTICLE_PER_STRIP_COUNT);\r\n       
       InitStripAttributes(index, attributes, stripData);\r\n#endif\r\n\t\t\r\n\t\t{\n\t\t   
       FlipbookPlay_0( /*inout */attributes.texIndex, (float)8, deltaTime_a);\n\t\t}\n\t\t{\n\t\t   
-      Force_1( /*inout */attributes.velocity, attributes.mass, float3(0, 0.200000003,
-      0), (float)1, deltaTime_a);\n\t\t}\n\t\t{\n\t\t    Drag_0( /*inout */attributes.velocity,
-      attributes.mass, (float)0.5, deltaTime_a);\n\t\t}\n\t\tEulerIntegration( /*inout
-      */attributes.position, attributes.velocity, deltaTime_a);\n\t\tAge( /*inout
-      */attributes.age, deltaTime_a);\n\t\tReap(attributes.age, attributes.lifetime, 
+      Force_1( /*inout */attributes.velocity, attributes.mass, float3(-0.200000003,
+      0.100000001, 0), (float)1, deltaTime_a);\n\t\t}\n\t\t{\n\t\t    Drag_0( /*inout
+      */attributes.velocity, attributes.mass, (float)0.5, deltaTime_a);\n\t\t}\n\t\tEulerIntegration(
+      /*inout */attributes.position, attributes.velocity, deltaTime_a);\n\t\tAge(
+      /*inout */attributes.age, deltaTime_a);\n\t\tReap(attributes.age, attributes.lifetime, 
       /*inout */attributes.alive);\n\t\t\n\r\n\t\tattributeBuffer.Store3((index *
       0x4 + 0x0) << 2,asuint(attributes.velocity));\n\t\tattributeBuffer.Store((index
       * 0x3 + 0x180) << 2,asuint(attributes.texIndex));\n\t\tattributeBuffer.Store3((index
@@ -1122,7 +1122,7 @@ VisualEffectResource:
       m_Vector3f:
         m_Array:
         - m_ExpressionIndex: 12
-          m_Value: {x: 0, y: 0.2, z: 0}
+          m_Value: {x: -0.2, y: 0.1, z: 0}
         - m_ExpressionIndex: 18
           m_Value: {x: 0.333, y: 0.01, z: 0.333}
         - m_ExpressionIndex: 19
@@ -1174,8 +1174,8 @@ VisualEffectResource:
           m_Value:
             serializedVersion: 2
             key0: {r: 1, g: 1, b: 1, a: 0}
-            key1: {r: 1, g: 1, b: 1, a: 0.015686275}
-            key2: {r: 0, g: 0, b: 0, a: 0}
+            key1: {r: 1, g: 1, b: 1, a: 0.41568628}
+            key2: {r: 0, g: 0, b: 0, a: 0.4627451}
             key3: {r: 0, g: 0, b: 0, a: 0}
             key4: {r: 0, g: 0, b: 0, a: 0}
             key5: {r: 0, g: 0, b: 0, a: 0}
@@ -1189,17 +1189,17 @@ VisualEffectResource:
             ctime5: 0
             ctime6: 0
             ctime7: 0
-            atime0: 0
-            atime1: 32768
-            atime2: 65535
-            atime3: 0
+            atime0: 4626
+            atime1: 20046
+            atime2: 43754
+            atime3: 65535
             atime4: 0
             atime5: 0
             atime6: 0
             atime7: 0
             m_Mode: 0
             m_NumColorKeys: 2
-            m_NumAlphaKeys: 3
+            m_NumAlphaKeys: 4
       m_NamedObject:
         m_Array:
         - m_ExpressionIndex: 3
@@ -3077,7 +3077,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Vector, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"vector":{"x":0.0,"y":0.20000000298023225,"z":0.0}}'
+      m_SerializableObject: '{"vector":{"x":-0.20000000298023225,"y":0.10000000149011612,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: Velocity
@@ -3483,7 +3483,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":0.01568627543747425,"time":0.5000076293945313},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.07058823853731156},{"alpha":0.4156862795352936,"time":0.30588236451148989},{"alpha":0.4627451002597809,"time":0.6676432490348816},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
