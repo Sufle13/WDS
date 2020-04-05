@@ -1,13 +1,10 @@
-Base path: 'D:/Program Files (x86)/Unity/2019.3.5f1/Editor/Data', plugins path 'D:/Program Files (x86)/Unity/2019.3.5f1/Editor/Data/PlaybackEngines'
+Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  error: 1 plat 4 at Smoke.vfx(90): comma expression used where a vector constructor may have been intended
-  api=4 insize=8198 outsize=1868 ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=30648 outsize=7050 kw=SHADOW_MEDIUM USE_CLUSTERED_LIGHTLIST pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=27054 outsize=6706 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=26858 outsize=6814 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
-
-Quitting shader compiler process
+  api=4 insize=18731 outsize=8523 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18731 outsize=10714 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5032 outsize=9142 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=11176 outsize=10429 ok=1
