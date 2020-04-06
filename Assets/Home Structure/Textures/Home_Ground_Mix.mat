@@ -35,12 +35,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap0:
-        m_Texture: {fileID: 2800000, guid: 664d4c889e719f44783644bb3348dd34, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Texture: {fileID: 2800000, guid: ec4111ad852758b4989d5857ed4625bc, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap1:
-        m_Texture: {fileID: 2800000, guid: ab707eee49942be49a71111a46940cdb, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Texture: {fileID: 2800000, guid: d77a3ba59cf0aaf49899aaaa00e1cdf6, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap2:
         m_Texture: {fileID: 0}
@@ -167,7 +167,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap0:
-        m_Texture: {fileID: 2800000, guid: b43784fc3d1dee54c9e545d3adf97e90, type: 3}
+        m_Texture: {fileID: 2800000, guid: 696001b8e343809408690a61346520b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap1:
@@ -415,8 +415,8 @@ Material:
     - _InheritBaseNormal2: 0
     - _InheritBaseNormal3: 0
     - _InvTilingScale: 1
-    - _InvTilingScale0: 0.5
-    - _InvTilingScale1: 0.5
+    - _InvTilingScale0: 1
+    - _InvTilingScale1: 1
     - _InvTilingScale2: 1
     - _InvTilingScale3: 1
     - _Ior: 1.5
@@ -440,8 +440,8 @@ Material:
     - _NormalMapSpace2: 0
     - _NormalMapSpace3: 0
     - _NormalScale: 1
-    - _NormalScale0: 2
-    - _NormalScale1: 2
+    - _NormalScale0: 3.89
+    - _NormalScale1: 1.73
     - _NormalScale2: 1
     - _NormalScale3: 1
     - _ObjectScaleAffectTile: 0
