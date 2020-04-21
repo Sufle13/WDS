@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scenes\Scripts\Movement\CharacterInputController.cs" />
     <Compile Include="Assets\Scenes\Scripts\Movement\CharacterPhysicsController.cs" />
     <Compile Include="Assets\Scenes\Scripts\Movement\FirstPersonLookController.cs" />
+    <Compile Include="Assets\Scripts\Bottom\Bottom.cs" />
     <Compile Include="Assets\Scripts\Music_Collider\Distance.cs" />
     <Compile Include="Assets\Scripts\Music_Collider\Music_control.cs" />
     <Compile Include="Assets\Scripts\Switch Constructor\AnimationSwicher.cs" />

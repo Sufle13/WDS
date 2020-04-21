@@ -8,6 +8,7 @@ public class LightSwicher : MonoBehaviour
     [SerializeField] float lightOff = 0f;
     [SerializeField] float lightOn = 0f;
     [SerializeField] bool lightState = false;
+    
 
     public void LightChange(bool lightState)
     {
